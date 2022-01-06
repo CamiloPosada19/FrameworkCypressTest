@@ -19,7 +19,7 @@ class SearchBoooksPages{
     entryEnviroment(){
         cy.visit(enviroment)
     }
-    makeAText(element){
+    typeText(element){
         cy.get(inputBookId)
         .clear()
         .type(element)

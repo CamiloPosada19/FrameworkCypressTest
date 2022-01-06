@@ -13,10 +13,6 @@
     const titleLabel="h2"
     const titleLabel2="h5"
    
-
-    
-
-
 class LoginPage{
 
 
@@ -39,8 +35,7 @@ class LoginPage{
         cy.get(textloginIncorrectId)
         .should("contain.text","Invalid username or password!")
         .should("have.class","mb-1")
-        
-
+    
     }
 
     CheckLoginCorrect(userConnected){
